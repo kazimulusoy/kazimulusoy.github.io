@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>kulusoy website</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body id="home" class="scrollspy">
+    <!--Navbar-->
+    <div class="navbar-fixed">
+        <nav class="blue">
+            <div class="container">
+                <div class="wrapper">
+                    <a href="#" class="brand-logo">KU</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                        <!--hamburger menu-->
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <!--hide this menu when screen is medium or lower-->
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#publications">Publications</a>
+                        </li>
+                        <li>
+                            <a href="#teaching">Teaching Experience</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Mobile Navbar-->
+    <ul class="sidenav" id="mobile-nav">
+        <li>
+            <a class="sidenav-close" href="#home">
+                <i class="fa fa-home fa-2x"></i> Home</a>
+        </li>
+        <li>
+            <a class="sidenav-close" href="#about">
+                <i class="fa fa-child fa-2x"></i>About</a>
+        </li>
+        <li>
+            <a class="sidenav-close" href="#education">
+                <i class="fa fa-list fa-2x"></i>Education</a>
+        </li>
+        <li>
+            <a class="sidenav-close" href="#publications">
+                <i class="fa fa-terminal fa-2x"></i>Publications</a>
+        </li>
+        <li>
+            <a class="sidenav-close" href="#teaching">
+                <i class="fa fa-terminal fa-2x"></i>Teaching Experience</a>
+        </li>
+        <li>
+            <a class="sidenav-close" href="#contact">
+                <i class="fa fa-terminal fa-2x"></i>Contact</a>
+        </li>
+    </ul>
+
+    <!--Section: About-->
+    <section id="about" class="section section-about white grey darken-1-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4 class="header center">
+                        <span class="grey-text">About Me</span>
+                    </h4>
+                    <h6>You can find more about me and my experience on my
+                        <b>
+                            <a href="https://www.linkedin.com/in/kazimulusoy/" target="_blank" rel="noopener">LinkedIn
+                                profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section: Education-->
+    <section id="education" class="section section-education white black-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <h4 class="header center">
+                    <span class="grey-text">Education</span>
+                </h4>
+                <h6>
+                    <i class="fas fa-star"></i> 2011 - Technical University Sofia (Electronics)
+                </h6>
+                <h6>
+                    <i class="fas fa-star"></i> 2010 - Technical University Sofia (Computer Science)
+                </h6>
+            </div>
+    </section>
+
+    <!--Section: Publications-->
+    <section id="publications" class="section section-publications white black-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <h4 class="header center">
+                    <span class="grey-text">Publications</span>
+                </h4>
+                <h6>
+                    <i class="fas fa-angle-double-right"></i> Energy aware routing and traffic management for software defined networks, Conference on Network Softwarization (NetSoft 2016), June 6-10, IEEE, 2016, Seoul, Korea.
+                </h6>
+                <h6>
+                    <i class="fas fa-angle-double-right"></i> Power Efficient Routing for Software Defined Networks (Yazılım Tanımlı Ağlar İçin Güç Verimli Yol Atama), SIU 2016, May 16-19, IEEE, Zonguldak, Turkey.
+                </h6>
+                <h6>
+                    <i class="fas fa-angle-double-right"></i> Flexible Bandwidth-Based Virtual Network Embedding, Network Operations and Management Symposium (NOMS 2016), April 25-29, IEEE/IFIP, 2016, İstanbul, Turkey.
+                </h6>
+            </div>
+    </section>
+
+    <!--Section: Teaching Experience-->
+    <section id="teaching" class="section section-teaching white black-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <h4 class="header center">
+                    <span class="grey-text">Teaching Experience</span>
+                </h4>
+                <a href="https://www.cmpe.boun.edu.tr/~gur/cmpe596/fall2015/" target="_blank" rel="noopener">CMPE 596 - Software-Defined Networking (SDN) - Guest Lecturer</a>
+                <h6>
+                    <i class="fas fa-angle-double-right"></i> 2017 - Bogazici University – CmpE 596 Software Defined Networking (SDN) Introduction to SDN architecture, SDN controllers (OpenDaylight, ONOS, Floodlight, OpenStack, IoT).
+                </h6>
+                <h6>
+                    <i class="fas fa-angle-double-right"></i> 2016 - Bogazici University – CmpE 596 Software Defined Networking (SDN) Introduction to SDN architecture, SDN controllers (OpenDaylight, ONOS, Floodlight, OpenStack, OpenStack and OpenDeylight integration with Neutron/ML2 plugin, Mininet).
+                </h6>
+                <h6>
+                    <i class="fasfa-angle-double-right"></i> 2016 - Cisco - IOE - Introduction to Internet of Everything. Cloud, virtualization, cloud computing models, Software Defined Networking (SDN), Openstack and Bigdata (Hadoop, MapReduce).
+                </h6>
+                <h6>
+                    <i class="fas fa-angle-double-right"></i> 2015 - GBogazici University – CmpE 596 Software Defined Networking (SDN) Introduction to SDN architecture, SDN controllers (OpenDaylight, ONOS, Floodlight, Argela NetSure"SENS-CG", Mininet, MiniNEXT).
+                </h6>
+            </div>
+    </section>
+
+    <!--Section: Contact-->
+    <section id="contact" class="section section-contact blue darken-2 white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4>Contact</h4>
+                    <p>You can get in touch with me via:</p>
+                    <a href="https://www.linkedin.com/in/kazimulusoy/" target="_blank" rel="noopener" class="white-text">
+                        <i class="fab fa-linkedin fa-4x"></i>
+                    </a>
+                    <a href="https://github.com/kazimulusoy" target="_blank" rel="noopener" class="white-text">
+                        <i class="fab fa-github fa-4x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section: Footer-->
+    <footer class="section grey lighten-1 white-text center">
+        <p class="flow-text">KU &copy
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script>
+        </p>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
